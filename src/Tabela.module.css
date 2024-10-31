@@ -5,10 +5,10 @@
   margin: 0 auto;
   text-align: center;
   color: #2a1b0c;
-  background-image: url('https://www.shutterstock.com/image-vector/africa-patterned-design-african-background-600nw-2418508541.jpg');
+  background-image: url('https://as1.ftcdn.net/v2/jpg/06/01/48/78/1000_F_601487871_4ddwmEtuaxd8nnNvJUaR250LbsE1J50x.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
   background-attachment: fixed;
   padding: 20px;
   border-radius: 10px;
@@ -17,7 +17,7 @@
 
 .titulo {
   font-family: 'Itim', cursive;
-  text-shadow: 2px 2px 4px rgba(229, 211, 211, 0.6); /* Adiciona sombra ao texto */
+  text-shadow: 2px 2px 4px rgba(197, 182, 182, 0.6); /* Adiciona sombra ao texto */
 }
   
   
