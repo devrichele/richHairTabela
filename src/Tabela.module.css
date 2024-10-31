@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.tabelaContainer {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #2a1b0c;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210623/pngtree-yellow-african-traditional-background-image_732421.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+  font-family: 'Itim', cursive;
+  text-shadow: 2px 2px 4px rgba(229, 211, 211, 0.6); /* Adiciona sombra ao texto */
+}
+  
+  
+  .tabelaPrecos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabelaPrecos th,
+  .tabelaPrecos td {
+    border: 1px solid #836547;
+    padding: 10px;
+  }
+  
+  .tabelaPrecos th {
+    background-color: #d9a66a;
+    color: #4b3621;
+  }
+  
+  .tabelaPrecos td {
+    background-color: #d2baa4;
+  }
+  
+  .tabelaPrecos tr:nth-child(even) td {
+    background-color: #d9b485;
+  }
+  
+  .servicoLink {
+    cursor: pointer;
+    color: #8b4513; /* Marrom para o link */
+    text-decoration: underline;
+  }
+  
+  .servicoLink:hover {
+    color: #a67c52; /* Marrom mais claro ao passar o mouse */
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  .modalImage {
+    max-width: 100%;
+    max-height: 100%;
+  }
