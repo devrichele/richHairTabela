@@ -9,7 +9,9 @@ const Tabela = () => {
     { nome: 'Gypsi Braids', preco: '400,00', imagem: '/imagens/gypsi-braids.jpg' },
     { nome: 'Knotless Braids', preco: '350,00', imagem: '/imagens/knotless-braids.jpg' },
     { nome: 'Nagô/Ghana', preco: '200,00', imagem: '/imagens/nago-ghana.jpg' },
-  ];
+    { nome: 'Nagô Masculina', preco: '100,00', imagem: '/imagens/nago-ghana.jpg' },
+
+];
 
   const abrirModal = (imagem) => {
     setImagemModal(imagem);
