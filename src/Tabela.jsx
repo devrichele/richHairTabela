@@ -1,17 +1,33 @@
-import React, { useState } from 'react';
-import styles from './Tabela.module.css';
+import React, { useState } from "react";
+import styles from "./Tabela.module.css";
 
 const Tabela = () => {
   const [imagemModal, setImagemModal] = useState(null);
 
   const servicos = [
-    { nome: 'Box Braids', preco: '300,00', imagem: '/imagens/box-braids.jpg' },
-    { nome: 'Gypsi Braids', preco: '400,00', imagem: '/imagens/gypsi-braids.jpg' },
-    { nome: 'Knotless Braids', preco: '350,00', imagem: '/imagens/knotless-braids.jpg' },
-    { nome: 'Nagô/Ghana', preco: '200,00', imagem: '/imagens/nago-ghana.jpg' },
-    { nome: 'Nagô Masculina', preco: '100,00', imagem: '/imagens/nago-ghana.jpg' },
-
-];
+    { nome: "Box Braids", preco: "300,00", imagem: "/imagens/box-braids.jpg" },
+    {
+      nome: "Gypsi Braids",
+      preco: "370,00",
+      imagem: "/imagens/gypsi-braids.jpg",
+    },
+    {
+      nome: "Knotless Braids",
+      preco: "280,00",
+      imagem: "/imagens/knotless-braids.jpg",
+    },
+    { nome: "Nagô/Ghana", preco: "200,00", imagem: "/imagens/nago-ghana.jpg" },
+    {
+      nome: "Nagô Masculina",
+      preco: "100,00",
+      imagem: "/imagens/nago-ghana.jpg",
+    },
+    {
+      nome: "Boho Braids",
+      preco: "400,00",
+      imagem: "/imagens/nago-ghana.jpg",
+    },
+  ];
 
   const abrirModal = (imagem) => {
     setImagemModal(imagem);
@@ -51,7 +67,11 @@ const Tabela = () => {
       {imagemModal && (
         <div className={styles.modal} onClick={fecharModal}>
           <div className={styles.modalContent}>
-            <img src={imagemModal} alt="Serviço" className={styles.modalImage} />
+            <img
+              src={imagemModal}
+              alt="Serviço"
+              className={styles.modalImage}
+            />
           </div>
         </div>
       )}
