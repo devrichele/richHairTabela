@@ -8,7 +8,7 @@ const Tabela = () => {
     { nome: "Box Braids", preco: "300,00", imagem: "/imagens/box-braids.jpg" },
     {
       nome: "Gypsi Braids",
-      preco: "370,00",
+      preco: "350,00",
       imagem: "/imagens/gypsi-braids.jpg",
     },
     {

@@ -1,6 +1,4 @@
-
-import React from 'react';
-import Tabela from './Tabela'; // Importa o componente da tabela
+import Tabela from "./Tabela";
 
 function App() {
   return (
